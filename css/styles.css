@@ -1,0 +1,65 @@
+body {
+  background: #ACDBE5;
+}
+html {
+  background: #ACDBE5;
+}
+h1 {
+  font-size: 70px;
+  color: #3B4B4E;
+}
+a, a:hover {
+  color: #FFFFFF;
+}
+.content {
+  margin: 0 auto;
+  text-align: left;
+  color: #fff;
+}
+.content .frame {
+  text-align: center;
+}
+.frame img {
+  padding-top: 120px;
+  width: 500px;
+}
+.content .text {
+  padding-top: 100px;
+}
+.content .description {
+  margin: 40px 0 10px 0;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: lighter;
+  color: #3B4B4E;
+}
+.inner {
+  padding-top: 80px;
+}
+.footer {
+  margin-top: 90px;
+  font-size: 18px;
+}
+.footer, .copyright {
+  font-weight: lighter;
+}
+.footer a {
+  color: #3B4B4E;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content .text { padding-top: 25px; }
+}
+@media (max-width: 767px) {
+  .inner { padding: 10px 0; }
+  .content .text { padding-top: 10px; text-align: center; }
+  .content h1 { font-size: 36px; }
+  .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
+  .footer-copyright, .footer-social { text-align: center; }
+  .footer-copyright { padding: 0 20px; }
+  .footer { margin-top: 10px; }
+  .frame img { width: 220px; }
+}
+@media (max-device-width : 568px) {
+  .content h1 { font-size: 24px; }
+  .content .description { margin: 0; font-size: 14px; line-height: 20px; font-weight: 300; }
+}
