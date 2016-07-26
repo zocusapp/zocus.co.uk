@@ -37,7 +37,7 @@ a, a:hover {
   padding-top: 80px;
 }
 .footer {
-  margin-top: 90px;
+  margin-top: 20px;
   font-size: 18px;
 }
 .footer, .copyright {
@@ -46,8 +46,18 @@ a, a:hover {
 .footer a {
   color: #3B4B4E;
 }
+.app-icon {
+  vertical-align: text-top;
+  width: 100px;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .content .text { padding-top: 25px; }
+  .content h1 { font-size: 36px; }
+  .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
+  .footer-copyright, .footer-social { text-align: center; }
+  .footer-copyright { padding: 0 20px; }
+  .frame img { padding-top: 100px; width: 220px; }
+  .app-icon { width: 60px; }
 }
 @media (max-width: 767px) {
   .inner { padding: 10px 0; }
@@ -58,6 +68,7 @@ a, a:hover {
   .footer-copyright { padding: 0 20px; }
   .footer { margin-top: 10px; }
   .frame img { width: 220px; }
+  .app-icon { width: 50px; }
 }
 @media (max-device-width : 568px) {
   .content h1 { font-size: 24px; }
