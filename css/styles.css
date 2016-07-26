@@ -6,32 +6,53 @@ html {
 }
 h1 {
   font-size: 70px;
-  color: #3B4B4E;
+  color: #FFFFFF;
 }
 a, a:hover {
   color: #FFFFFF;
 }
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background: url("../img/hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
 .content {
   margin: 0 auto;
   text-align: left;
-  color: #fff;
+  color: #FFFFFF;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 .content .frame {
   text-align: center;
 }
 .frame img {
-  padding-top: 120px;
+  padding-top: 100px;
   width: 500px;
 }
 .content .text {
   padding-top: 100px;
 }
 .content .description {
-  margin: 40px 0 10px 0;
+  margin: 8px 0 8px 0;
   font-size: 22px;
   line-height: 36px;
   font-weight: lighter;
-  color: #3B4B4E;
+  color: #FFFFFF;
 }
 .inner {
   padding-top: 80px;
@@ -44,7 +65,7 @@ a, a:hover {
   font-weight: lighter;
 }
 .footer a {
-  color: #3B4B4E;
+  color: #FFFFFF;
 }
 .app-icon {
   vertical-align: text-top;
