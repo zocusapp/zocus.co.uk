@@ -11,6 +11,9 @@ h1 {
 a, a:hover {
   color: #FFFFFF;
 }
+.app-download {
+  padding-top: 10px;
+}
 .background-image {
   position: fixed;
   left: 0;
@@ -45,7 +48,7 @@ a, a:hover {
   width: 500px;
 }
 .content .text {
-  padding-top: 100px;
+  padding-top: 25px;
 }
 .content .description {
   margin: 8px 0 8px 0;
