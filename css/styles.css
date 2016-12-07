@@ -44,11 +44,8 @@ a, a:hover {
   text-align: center;
 }
 .frame img {
-  padding-top: 100px;
+  padding-top: 155px;
   width: 500px;
-}
-.content .text {
-  padding-top: 25px;
 }
 .content .description {
   margin: 8px 0 8px 0;
@@ -58,7 +55,7 @@ a, a:hover {
   color: #FFFFFF;
 }
 .inner {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .footer {
   margin-top: 20px;
@@ -84,12 +81,11 @@ a, a:hover {
   padding: 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .content .text { padding-top: 25px; }
   .content h1 { font-size: 36px; }
   .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
   .footer-copyright, .footer-social { text-align: center; }
   .footer-copyright { padding: 0 20px; }
-  .frame img { padding-top: 100px; width: 220px; }
+  .frame img { padding-top: 155px; width: 220px; }
   .app-icon { width: 60px; }
 }
 @media (max-width: 767px) {
