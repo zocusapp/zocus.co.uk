@@ -35,7 +35,7 @@ a, a:hover {
   margin: 0 auto;
   text-align: left;
   color: #FFFFFF;
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   z-index: 9999;
@@ -80,6 +80,10 @@ a, a:hover {
   background: transparent;
   padding: 0;
 }
+.preview iframe {
+  width: 360px;
+  height: 240px;
+}
 @media (max-width: 767px) {
   .title h1 { font-size: 2.2em; }
   h2 { font-size: 1.5em; }
@@ -92,4 +96,6 @@ a, a:hover {
   .footer { margin-top: 10px; }
   .frame img { width: 220px; padding: 0; }
   .app-icon { width: 50px; }
+  .preview iframe { width: 240px; height: 150px; }
+  .list-inline { font-size: 15px; }
 }
