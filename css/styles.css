@@ -80,28 +80,16 @@ a, a:hover {
   background: transparent;
   padding: 0;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .content h1 { font-size: 36px; }
-  .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
-  .footer-copyright, .footer-social { text-align: center; }
-  .footer-copyright { padding: 0 20px; }
-  .frame img { padding-top: 155px; width: 220px; }
-  .app-icon { width: 60px; }
-}
 @media (max-width: 767px) {
   .title h1 { font-size: 2.2em; }
   h2 { font-size: 1.5em; }
   .inner { padding: 10px 0; }
   .content .text { padding-top: 10px; text-align: center; }
-  .content h1 { font-size: 36px; }
+  .content h1 { font-size: 24px; }
   .content .description { margin: 5px; font-size: 20px; line-height: 30px; }
   .footer-copyright, .footer-social { text-align: center; }
   .footer-copyright { padding: 0 20px; }
   .footer { margin-top: 10px; }
-  .frame img { width: 220px; }
+  .frame img { width: 220px; padding: 0; }
   .app-icon { width: 50px; }
-}
-@media (max-device-width : 568px) {
-  .content h1 { font-size: 24px; }
-  .content .description { margin: 0; font-size: 14px; line-height: 20px; font-weight: 300; }
 }
