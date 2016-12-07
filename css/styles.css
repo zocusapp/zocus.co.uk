@@ -75,7 +75,12 @@ a, a:hover {
   width: 100px;
 }
 .section-image {
-  padding-top: 10px;
+  padding: 10px 0 10px 0;
+}
+.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+  background: transparent;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .content .text { padding-top: 25px; }
@@ -87,6 +92,8 @@ a, a:hover {
   .app-icon { width: 60px; }
 }
 @media (max-width: 767px) {
+  .title h1 { font-size: 2.2em; }
+  h2 { font-size: 1.5em; }
   .inner { padding: 10px 0; }
   .content .text { padding-top: 10px; text-align: center; }
   .content h1 { font-size: 36px; }
